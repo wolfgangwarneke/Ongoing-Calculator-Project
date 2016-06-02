@@ -7,7 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
   </head>
   <body>
@@ -22,9 +22,34 @@
           <label for="add2">2nd number:</label>
           <input id="add2" class="form-control" type="text">
         </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked>
+            ADD IT UP
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract">
+            SUBTRACT THAT, DOG
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply">
+            MULTIPLY AND CONQUER
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide">
+            DIVIDED WE FAIL
+          </label>
+        </div>
         <button type="submit" class="btn">Add!</button>
       </form>
       <div id="output">
+        <h1></h1>
       </div>
     </div>
   </body>
